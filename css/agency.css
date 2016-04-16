@@ -64,11 +64,14 @@ section h3.section-text{font-size:16px;font-family:"Roboto","Helvetica Neue",Hel
   section{padding:150px 0}
 }
 
-#about, #skills {
+/*#about, #skills {
   background-color: #222;
   color: white;
-}
+}*/
 
+/*#projects {
+  background-color: #eee;
+}*/
 
 .service-heading{margin:15px 0;text-transform:none}
 #projects .projects-item{margin:0 0 15px;right:0}
@@ -133,3 +136,12 @@ footer ul.quicklinks{margin-bottom:0;line-height:40px;font-family:Roboto,"Helvet
 img::selection{background:0 0}
 img::-moz-selection{background:0 0}
 body{webkit-tap-highlight-color:#007ba7}
+
+.navbar-brand,
+.page-scroll:hover {
+  text-shadow: -1px 0 #2d6a9f, 0 1px #2d6a9f, 1px 0 #2d6a9f, 0 -1px #2d6a9f;
+}
+
+.navbar-brand:hover {
+  text-shadow: none;
+}
