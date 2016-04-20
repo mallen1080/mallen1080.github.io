@@ -86,6 +86,10 @@ section h3.section-text{font-size:16px;font-family:"Roboto","Helvetica Neue",Hel
 #projects .projects-item .projects-caption p{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;margin:0}
 #projects *{z-index:2}
 
+.projects-cap-container {
+    background-color: white;
+}
+
 @media (min-width:767px) {
   #projects .projects-item{margin:0 0 30px
   }
